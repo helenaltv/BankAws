@@ -1,0 +1,171 @@
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 1000px;
+  background-color: rgba(196, 173, 237, 0.348);
+}
+
+li {
+  display: flex;
+  gap: 140px;
+  margin-left: 650px;
+  display: none;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(196, 173, 237, 0.348);
+  border-radius: 20px;
+  width: 100%;
+  height: 80px;
+}
+
+.Logan {
+  width: 116px;
+  height: 37px;
+  left: 20px;
+  position: absolute;
+  border: 1px solid #9780f2;
+  border-radius: 10px;
+}
+
+nav {
+  margin-left: 300px;
+}
+@media (min-width: 768px) {
+  body {
+    height: 1000px;
+    background-color: rgba(196, 173, 237, 0.348);
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    background-color: rgba(196, 173, 237, 0.348);
+    border-radius: 20px;
+
+    width: 100%;
+    height: 150px;
+  }
+
+  li {
+    display: flex;
+    gap: 140px;
+    margin-left: 650px;
+  }
+  .Mitten {
+    background-color: rgb(78, 78, 248);
+    height: 750px;
+    border-radius: 20px;
+    color: white;
+    margin-top: -50px;
+  }
+  h1 {
+    font-size: 4rem;
+    width: 500px;
+    padding: 50px;
+    padding-left: 100px;
+  }
+
+  .gul {
+    width: 117px;
+    height: 30px;
+    background: #f8d942;
+    border-radius: 10px;
+  }
+
+  .svart1 {
+    width: 117px;
+    height: 30px;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+  }
+  .svart1:hover {
+    background: darkgray;
+  }
+
+  .gul:hover {
+    background: darkgray;
+  }
+
+  .svart2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 60px;
+    gap: 10px;
+    position: absolute;
+    width: 217px;
+    height: 71px;
+    left: 150px;
+    top: 507px;
+    color: white;
+    font-size: large;
+    background: #070030;
+    border-radius: 999px;
+  }
+  h5 {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  .Inne {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 600px;
+    height: 150px;
+    font-size: 2rem;
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 50px;
+    margin-left: 650px;
+    margin-top: 120px;
+    color: black;
+    background-color: rgba(239, 230, 251, 0.953);
+  }
+  .Line {
+    position: absolute;
+    margin-top: 160px;
+    width: 450px;
+  }
+  .Raiting {
+    position: absolute;
+    margin-top: 200px;
+  }
+  .Elipse {
+    width: 55px;
+    height: 25px;
+  }
+
+  .kort {
+    position: relative;
+    margin-top: -100px;
+    margin-left: 750px;
+  }
+
+  .kort2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .kort1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0, 1;
+    z-index: 1;
+  }
+}
+.footer {
+  background-color: rgba(196, 173, 237, 0.348);
+  height: 50px;
+  border-radius: 20px;
+  height: 80px;
+}
